@@ -1,0 +1,170 @@
+body{
+    font-family: "montserrat medium";
+}
+#title {
+    background-color: #7FC7D9;
+    color: #0F1035;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: "montserrat black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+ font-family: 'montserrat';
+ font-weight: bold;
+ font-size: 3rem;
+}
+
+h3{
+    font-family: 'Montserrat' ;
+    font-weight: bold;
+   
+}
+p{
+    color: grey;
+}
+/* navbar */
+.navbar {
+ padding: 0 0 3.5rem;
+
+}
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.navbar-brand:hover{
+color: #0F1035;
+}
+.nav-item{
+    padding: 0 18px;
+    
+}
+.nav-link{
+    font-family: 'montserrat light';
+    font-size: 1.2rem;
+    color: #fff;
+}
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+.icon{
+    padding: 10px;
+}
+/* title */
+.title-image{
+    width: 21%;
+    transform: rotate(18deg);
+    position: absolute;
+   right: 22%;
+}
+
+
+/* feature section */
+
+#features{
+    padding: 7% 7%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+
+}
+.f-icon{
+    color: #365486;
+    margin-bottom: 1rem;
+}
+.f-icon:hover{
+    color: #7FC7D9;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #DCF2F1;
+  color: #0F1035;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+
+}
+
+/* press */
+
+#press{
+    background-color: #DCF2F1;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.p-logo{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+ 
+/* pricing */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* footer */
+
+#cta{
+    background-color: #DCF2F1;
+    color: #0F1035;
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: "montserrat black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+
+    margin: 20px 10px;
+}
+
+/* Media Query breakpoints */
+
+@media (max-width: 1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+    #title{
+        text-align: center;
+    }
+}
